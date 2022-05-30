@@ -82,3 +82,16 @@
 2022-05-30T13:19:23.748Z [store-api] info GET ONE IN /supplier
 2022-05-30T13:19:27.439Z [store-api] info GET ONE IN /supplier
 2022-05-30T13:19:30.405Z [store-api] info GET IN /supplier
+2022-05-30T13:46:33.921Z [store-api] info CREATE POST IN /product - {"name":"Notebook Acer","description":" i7 32gb RAM","value":5000,"stock":10,"supplier_id":2}
+2022-05-30T13:46:44.953Z [store-api] info GET IN /product
+2022-05-30T13:46:53.450Z [store-api] info GET ONE IN /product
+2022-05-30T13:46:58.777Z [store-api] info DELETE IN /product
+2022-05-30T13:47:00.520Z [store-api] info GET ONE IN /product
+2022-05-30T13:47:00.971Z [store-api] info GET ONE IN /product
+2022-05-30T13:47:02.872Z [store-api] info GET IN /product
+2022-05-30T13:47:05.457Z [store-api] error PUT  - invalid input syntax for type numeric: "(11) 9000-0000"
+2022-05-30T13:48:08.607Z [store-api] info CREATE POST IN /product - {"name":"Notebook Acer","description":" i7 32gb RAM","value":15000,"stock":10,"supplier_id":2}
+2022-05-30T13:48:27.974Z [store-api] info GET IN /product
+2022-05-30T13:48:33.299Z [store-api] info GET ONE IN /product
+2022-05-30T13:48:37.395Z [store-api] info PUT IN /product - {"product_id":2,"name":"Notebook Acer","description":" i7 16gb RAM","value":5000,"stock":10,"supplier_id":2}
+2022-05-30T13:48:47.227Z [store-api] info GET IN /product

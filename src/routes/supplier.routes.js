@@ -2,7 +2,6 @@ const express = require("express")
 const supplierController = require("../controllers/supplier.controllers") 
 const routerSupplier = express.Router();
 
-
 routerSupplier.post("/", supplierController.createSupplier)
 routerSupplier.put('/', supplierController.upadateSupplier)
 routerSupplier.get('/', supplierController.getSuppliers)
