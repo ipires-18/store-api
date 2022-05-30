@@ -2,6 +2,7 @@ const express = require('express')
 const cors = require('cors') 
 const winston = require('winston') 
 const clientsRouter = require('./src/routes/client.routes')
+const supplierRouter = require('./src/routes/supplier.routes')
 
 const { combine, timestamp, label, printf } = winston.format
 
@@ -29,8 +30,8 @@ app.use(express.json())
 app.use(cors())
 
 app.use("/client", clientsRouter)
+app.use("/supplier", supplierRouter)
 // app.use("/product", productRouter)
-// app.use("/supplier", supplierRouter)
 // app.use("/sale", salesRouter)
 
 app.use((err, req, res, next) => {

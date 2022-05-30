@@ -62,3 +62,23 @@
 2022-05-30T02:57:04.803Z [store-api] info GET IN /client
 2022-05-30T02:57:25.071Z [store-api] info PUT IN /client - {"client_id":4,"name":"Andrade da Silva","cpf":"000.000.000-00","phone":"(00) 9000-0000","email":"andradeSilva7@gmail.com","address":"Rua Jose Carlos de Andrade"}
 2022-05-30T02:57:57.947Z [store-api] info PUT IN /client - {"client_id":4,"name":"Andrade da Silva","cpf":"000.000.000-00","phone":"(00) 0000-0000","email":"andradeSilva@gmail.com","address":"Rua Jose Carlos de Andrade"}
+2022-05-30T13:12:06.681Z [store-api] info GET IN /client
+2022-05-30T13:13:02.930Z [store-api] info GET IN /supplier
+2022-05-30T13:14:24.122Z [store-api] info CREATE POST IN /supplier - {"name":"E Eletronicos","cnpj":"000.000.000-00","phone":"(11) 9000-0000","email":"andradeSilva@gmail.com","address":"Rua Jose Carlos de Andrade"}
+2022-05-30T13:17:15.285Z [store-api] info GET IN /supplier
+2022-05-30T13:17:19.435Z [store-api] info GET ONE IN /client
+2022-05-30T13:17:26.396Z [store-api] info GET ONE IN /supplier
+2022-05-30T13:17:31.413Z [store-api] info DELETE IN /supplier
+2022-05-30T13:17:35.819Z [store-api] info GET ONE IN /supplier
+2022-05-30T13:17:44.522Z [store-api] info GET IN /supplier
+2022-05-30T13:18:14.401Z [store-api] error PUT  - Name, CPNJ, Phone, Email and Address are mandatory
+2022-05-30T13:18:53.744Z [store-api] info PUT IN /supplier - {"supplier_id":1,"name":"Andrade da Silva","cnpj":"000.000.000-00","phone":"(00) 0000-0000","email":"andradeSilva@gmail.com","address":"Rua Jose Carlos de Andrade"}
+2022-05-30T13:18:57.545Z [store-api] info GET IN /supplier
+2022-05-30T13:19:00.732Z [store-api] info GET ONE IN /supplier
+2022-05-30T13:19:05.317Z [store-api] info CREATE POST IN /supplier - {"name":"E Eletronicos","cnpj":"000.000.000-00","phone":"(11) 9000-0000","email":"andradeSilva@gmail.com","address":"Rua Jose Carlos de Andrade"}
+2022-05-30T13:19:09.720Z [store-api] info GET IN /supplier
+2022-05-30T13:19:15.583Z [store-api] info GET ONE IN /supplier
+2022-05-30T13:19:20.984Z [store-api] info DELETE IN /supplier
+2022-05-30T13:19:23.748Z [store-api] info GET ONE IN /supplier
+2022-05-30T13:19:27.439Z [store-api] info GET ONE IN /supplier
+2022-05-30T13:19:30.405Z [store-api] info GET IN /supplier
