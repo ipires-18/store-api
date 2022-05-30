@@ -1,0 +1,64 @@
+2022-05-29T22:32:48.987Z [store-api] error POST  - Unexpected token } in JSON at position 104
+2022-05-29T22:34:35.255Z [store-api] error POST  - Name, CPF, Phone, Email and Address are mandatory
+2022-05-29T22:34:58.186Z [store-api] info CREATE POST IN CLIENT - {"name":"Teste 1","cpf":"123456789-95","phone":"1144663322","email":"testinho@gmail.com","address":"av testinho 22"}
+2022-05-29T23:04:46.207Z [store-api] info CREATE POST IN CLIENT - {"name":"Teste 1","cpf":"123456789-95","phone":"1144663322","email":"testinho@gmail.com","address":"av testinho 22"}
+2022-05-30T01:46:33.043Z [store-api] info CREATE POST IN CLIENT - {"name":"Teste 1","cpf":"123456789-95","phone":"1144663322","email":"testinho@gmail.com","address":"av testinho 22"}
+2022-05-30T01:59:41.213Z [store-api] info GET POST IN /client
+2022-05-30T02:15:49.989Z [store-api] info GET ONE IN /client
+2022-05-30T02:15:54.180Z [store-api] info GET ONE IN /client
+2022-05-30T02:15:59.812Z [store-api] info GET IN /client
+2022-05-30T02:16:08.824Z [store-api] info GET ONE IN /client
+2022-05-30T02:16:13.636Z [store-api] info GET ONE IN /client
+2022-05-30T02:27:11.912Z [store-api] info GET IN /client
+2022-05-30T02:27:14.552Z [store-api] info GET ONE IN /client
+2022-05-30T02:28:03.611Z [store-api] info DELETE IN /client
+2022-05-30T02:28:10.979Z [store-api] info GET IN /client
+2022-05-30T02:28:18.247Z [store-api] info GET ONE IN /client
+2022-05-30T02:29:06.073Z [store-api] info DELETE IN /client
+2022-05-30T02:29:09.579Z [store-api] info GET IN /client
+2022-05-30T02:29:13.647Z [store-api] info GET ONE IN /client
+2022-05-30T02:42:44.956Z [store-api] info CREATE POST IN /client - {"name":"Teste 1","cpf":"123456789-95","phone":"1144663322","email":"testinho@gmail.com","address":"av testinho 22"}
+2022-05-30T02:42:47.405Z [store-api] info GET IN /client
+2022-05-30T02:42:51.503Z [store-api] info GET ONE IN /client
+2022-05-30T02:42:54.268Z [store-api] info GET ONE IN /client
+2022-05-30T02:44:09.835Z [store-api] error PUT  - syntax error at or near ")"
+2022-05-30T02:44:23.044Z [store-api] info GET IN /client
+2022-05-30T02:46:34.748Z [store-api] error PUT  - syntax error at or near ")"
+2022-05-30T02:46:50.240Z [store-api] error PUT  - client_id is not defined
+2022-05-30T02:47:04.534Z [store-api] error PUT  - syntax error at or near ")"
+2022-05-30T02:47:37.292Z [store-api] error PUT  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2022-05-30T02:47:44.268Z [store-api] info GET IN /client
+2022-05-30T02:50:04.822Z [store-api] info DELETE IN /client
+2022-05-30T02:50:07.953Z [store-api] info GET ONE IN /client
+2022-05-30T02:50:10.386Z [store-api] info GET IN /client
+2022-05-30T02:50:13.570Z [store-api] error PUT  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2022-05-30T02:51:23.702Z [store-api] info CREATE POST IN /client - {"name":"Andrade da Silva","cpf":"000.000.000-00","phone":"(11) 9000-0000","email":"andradeSilva@gmail.com","address":"Rua Jose Carlos de Andrade"}
+2022-05-30T02:51:32.305Z [store-api] info GET IN /client
+2022-05-30T02:51:36.705Z [store-api] info GET ONE IN /client
+2022-05-30T02:51:39.880Z [store-api] info GET ONE IN /client
+2022-05-30T02:51:44.590Z [store-api] info CREATE POST IN /client - {"name":"Andrade da Silva","cpf":"000.000.000-00","phone":"(11) 9000-0000","email":"andradeSilva@gmail.com","address":"Rua Jose Carlos de Andrade"}
+2022-05-30T02:52:31.080Z [store-api] info GET IN /client
+2022-05-30T02:53:42.393Z [store-api] error PUT  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2022-05-30T02:53:47.788Z [store-api] info GET IN /client
+2022-05-30T02:53:54.946Z [store-api] info GET ONE IN /client
+2022-05-30T02:55:42.780Z [store-api] info PUT IN /client - [object Object]
+2022-05-30T02:56:21.078Z [store-api] error PUT  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2022-05-30T02:57:04.803Z [store-api] info GET IN /client
+2022-05-30T02:57:25.071Z [store-api] info PUT IN /client - {"client_id":4,"name":"Andrade da Silva","cpf":"000.000.000-00","phone":"(00) 9000-0000","email":"andradeSilva7@gmail.com","address":"Rua Jose Carlos de Andrade"}
+2022-05-30T02:57:57.947Z [store-api] info PUT IN /client - {"client_id":4,"name":"Andrade da Silva","cpf":"000.000.000-00","phone":"(00) 0000-0000","email":"andradeSilva@gmail.com","address":"Rua Jose Carlos de Andrade"}

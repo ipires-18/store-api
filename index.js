@@ -33,7 +33,7 @@ app.use("/client", clientsRouter)
 // app.use("/supplier", supplierRouter)
 // app.use("/sale", salesRouter)
 
-app.use((err, req, res) => {
+app.use((err, req, res, next) => {
   logger.error(`${req.method} ${req.baseUrl} - ${err.message}`)
   res.status(400).send({ error: err.message })
 })
