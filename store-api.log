@@ -95,3 +95,61 @@
 2022-05-30T13:48:33.299Z [store-api] info GET ONE IN /product
 2022-05-30T13:48:37.395Z [store-api] info PUT IN /product - {"product_id":2,"name":"Notebook Acer","description":" i7 16gb RAM","value":5000,"stock":10,"supplier_id":2}
 2022-05-30T13:48:47.227Z [store-api] info GET IN /product
+2022-05-30T13:56:10.441Z [store-api] error POST  - O supplier_id não informado não existe!!!
+2022-05-30T13:56:32.149Z [store-api] info CREATE POST IN /product - {"name":"Notebook Lenovo","description":" i7 32gb RAM","value":15000,"stock":10,"supplier_id":2}
+2022-05-30T14:25:58.061Z [store-api] info GET IN /product
+2022-05-30T14:26:04.300Z [store-api] info GET IN /client
+2022-05-30T14:27:51.252Z [store-api] error POST  - SaleService.createSale is not a function
+2022-05-30T19:02:35.022Z [store-api] error POST  - SaleService.createSale is not a function
+2022-05-30T19:03:42.344Z [store-api] error POST  - invalid input syntax for type numeric: "Notebook Lenovo"
+2022-05-30T19:05:15.789Z [store-api] info CREATE POST IN /client - {"name":"Teste do teste","cpf":"000.000.000-00","phone":"(11) 9000-0000","email":"Teste7@gmail.com","address":"Rua Teste Carlos de Teste"}
+2022-05-30T19:06:29.668Z [store-api] info CREATE POST IN /supplier - {"name":"E Eletronicos LTDA","cnpj":"00000.000.000-00","phone":"(11) 9000-0000","email":"Eletronicos@gmail.com","address":"São Paulo - SP"}
+2022-05-30T19:07:39.913Z [store-api] info CREATE POST IN /product - {"name":"Maouse e Teclado","description":"Gamer Vaches do vachado","value":1000,"stock":200,"supplier_id":3}
+2022-05-30T19:08:42.070Z [store-api] error POST  - date/time field value out of range: "30/05/2022"
+2022-05-30T19:09:51.872Z [store-api] error POST  - date/time field value out of range: "23-09-2021"
+2022-05-30T19:10:29.079Z [store-api] error POST  - date/time field value out of range: "23/09/2021 00:00:00"
+2022-05-30T19:10:44.235Z [store-api] info CREATE POST IN /sale - {"value":1000,"date":"01/01/2000 00:00:00","client_id":6,"product_id":4}
+2022-05-30T19:11:08.219Z [store-api] error GET  - SaleService.getSales is not a function
+2022-05-30T19:11:28.209Z [store-api] error GET  - SaleService.getSales is not a function
+2022-05-30T19:12:08.470Z [store-api] error GET  - The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function getSales
+2022-05-30T19:14:19.486Z [store-api] info GET ONE IN /sale
+2022-05-30T19:14:25.983Z [store-api] error DELETE  - SaleService.deleteSale is not a function
+2022-05-30T19:15:05.068Z [store-api] error PUT  - SaleService.updateSale is not a function
+2022-05-30T19:15:43.607Z [store-api] info PUT IN /sale - {"sale_id":1,"product_id":4,"client_id":6,"value":2000,"date":"2000-02-01T02:00:00.000Z"}
+2022-05-30T19:15:49.289Z [store-api] info GET ONE IN /sale
+2022-05-30T19:23:42.539Z [store-api] info GET ONE IN /sale
+2022-05-30T19:23:44.481Z [store-api] error GET  - The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function getSales
+2022-05-30T19:24:46.735Z [store-api] error GET  - The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function getAllSales
+2022-05-30T19:26:20.474Z [store-api] info GET IN /sale
+2022-05-30T19:26:28.247Z [store-api] info GET ONE IN /sale
+2022-05-30T19:26:31.554Z [store-api] error DELETE  - SaleService.deleteSale is not a function
+2022-05-30T19:26:52.711Z [store-api] info DELETE IN /sale
+2022-05-30T19:26:55.380Z [store-api] info GET ONE IN /sale
+2022-05-30T19:26:57.287Z [store-api] info GET IN /sale
+2022-05-30T19:26:59.785Z [store-api] info PUT IN /sale - {"sale_id":1,"product_id":4,"client_id":6,"value":2000,"date":"2000-02-01T02:00:00.000Z"}
+2022-05-30T19:27:01.932Z [store-api] info CREATE POST IN /sale - {"value":1000,"date":"01/01/2000 00:00:00","client_id":6,"product_id":4}
+2022-05-30T19:27:57.126Z [store-api] info GET IN /sale
+2022-05-30T20:02:10.492Z [store-api] error POST  - O Client_id informado não existe
+2022-05-30T20:02:15.543Z [store-api] info CREATE POST IN /sale - {"value":1000,"date":"01/01/2000 00:00:00","client_id":6,"product_id":4}
+2022-05-30T20:02:37.569Z [store-api] info PUT IN /sale - {"sale_id":1,"product_id":4,"client_id":6,"value":2000,"date":"2000-02-01T02:00:00.000Z"}
+2022-05-30T20:02:40.743Z [store-api] error PUT  - O Client_id informado não existe
+2022-05-30T20:02:44.942Z [store-api] info PUT IN /sale - {"sale_id":1,"product_id":4,"client_id":6,"value":2000,"date":"2000-02-01T02:00:00.000Z"}
+2022-05-30T20:03:18.680Z [store-api] error PUT  - Unexpected number in JSON at position 53
+2022-05-30T20:03:25.628Z [store-api] error PUT  - O Client_id informado não existe
+2022-05-30T20:03:40.243Z [store-api] error POST  - O Client_id informado não existe
+2022-05-30T20:03:49.468Z [store-api] info PUT IN /sale - {"sale_id":1,"product_id":4,"client_id":6,"value":2000,"date":"2000-02-01T02:00:00.000Z"}
+2022-05-30T20:27:08.192Z [store-api] info GET IN /product
+2022-05-30T20:27:24.164Z [store-api] info CREATE POST IN /sale - {"value":1000,"date":"01/01/2000 00:00:00","client_id":6,"product_id":4}
+2022-05-30T20:27:31.536Z [store-api] info GET IN /product
+2022-05-30T20:27:37.886Z [store-api] info CREATE POST IN /sale - {"value":1000,"date":"01/01/2000 00:00:00","client_id":6,"product_id":4}
+2022-05-30T20:27:42.084Z [store-api] info GET ONE IN /product
+2022-05-30T20:27:51.207Z [store-api] info CREATE POST IN /product - {"name":"Maouse e Teclado","description":"Gamer Vaches do vachado","value":1000,"stock":1,"supplier_id":3}
+2022-05-30T20:28:06.046Z [store-api] info CREATE POST IN /sale - {"value":1000,"date":"01/01/2000 00:00:00","client_id":6,"product_id":5}
+2022-05-30T20:28:11.677Z [store-api] info GET IN /product
+2022-05-30T20:28:16.298Z [store-api] error POST  - O product informado não possui estoque
+2022-05-31T00:15:59.720Z [store-api] info GET IN /sale
+2022-05-31T00:16:04.733Z [store-api] error DELETE  - O id sale informado não existe.
+2022-05-31T00:16:47.636Z [store-api] info GET IN /sale
+2022-05-31T00:17:00.950Z [store-api] info GET ONE IN /product
+2022-05-31T00:17:15.998Z [store-api] info DELETE IN /sale
+2022-05-31T00:17:31.769Z [store-api] info GET ONE IN /product

@@ -4,6 +4,7 @@ const winston = require('winston')
 const clientsRouter = require('./src/routes/client.routes')
 const supplierRouter = require('./src/routes/supplier.routes')
 const productRouter = require('./src/routes/product.routes')
+const salesRouter = require('./src/routes/sales.routes')
 
 const { combine, timestamp, label, printf } = winston.format
 
@@ -33,7 +34,7 @@ app.use(cors())
 app.use("/client", clientsRouter)
 app.use("/supplier", supplierRouter)
 app.use("/product", productRouter)
-// app.use("/sale", salesRouter)
+app.use("/sale", salesRouter)
 
 app.use((err, req, res, next) => {
   logger.error(`${req.method} ${req.baseUrl} - ${err.message}`)
