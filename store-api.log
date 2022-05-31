@@ -153,3 +153,7 @@
 2022-05-31T00:17:00.950Z [store-api] info GET ONE IN /product
 2022-05-31T00:17:15.998Z [store-api] info DELETE IN /sale
 2022-05-31T00:17:31.769Z [store-api] info GET ONE IN /product
+2022-05-31T00:35:05.363Z [store-api] info GET IN /sale
+2022-05-31T00:35:22.047Z [store-api] info GET IN /sale
+2022-05-31T00:35:28.189Z [store-api] info GET IN /sale
+2022-05-31T00:37:13.658Z [store-api] info GET IN /sale

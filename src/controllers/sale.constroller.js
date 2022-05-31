@@ -16,6 +16,16 @@ async function createSale(request, response, next){
   }
 }
 
+async function getByProductId(request, response, next){
+  try {
+
+    response.send(await SaleService.getByProductId())
+    
+  } catch (err) {
+    next(err)
+  }
+}
+
 async function getAllSales(request, response, next){
   try {
     
@@ -69,5 +79,6 @@ module.exports = {
   getAllSales,
   getOneSale,
   deleteSale,
-  upadateSale
+  upadateSale,
+  getByProductId
 }

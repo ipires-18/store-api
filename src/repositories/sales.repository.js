@@ -18,6 +18,21 @@ async function insertSales(sale){
   }
 } 
 
+async function getByProductId(productId){
+  const conn = await connect();
+
+  try {
+    const response = await conn.query("SELECT * FROM sales WHERE product_id = $1",[productId])
+
+    return response.rows
+    
+  } catch (err) {
+    throw err
+  }finally{
+    conn.release()
+  }
+}
+
 async function getAllSales(){
   const conn = await connect();
 
@@ -90,5 +105,6 @@ module.exports = {
   getAllSales,
   getSale,
   updateSales,
-  deleteSales
+  deleteSales,
+  getByProductId
 }

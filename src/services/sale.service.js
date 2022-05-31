@@ -26,6 +26,11 @@ async function createSales(sales){
   
 }
 
+async function getByProductId(productId){
+
+  return await SalesRepository.getByProductId(productId)
+}
+
 async function getAllSales(){
   return await SalesRepository.getAllSales()
 }
@@ -60,4 +65,4 @@ async function updateSales(sales){
   return await SalesRepository.updateSales(sales)
 }
 
-module.exports = {createSales, getAllSales, getSale, deleteSales,updateSales}
+module.exports = {createSales, getAllSales, getSale,getByProductId, deleteSales,updateSales}
