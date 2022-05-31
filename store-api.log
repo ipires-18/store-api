@@ -157,3 +157,5 @@
 2022-05-31T00:35:22.047Z [store-api] info GET IN /sale
 2022-05-31T00:35:28.189Z [store-api] info GET IN /sale
 2022-05-31T00:37:13.658Z [store-api] info GET IN /sale
+2022-05-31T01:46:24.107Z [store-api] info GET ONE IN /client
+2022-05-31T01:46:44.039Z [store-api] info GET ONE IN /client
